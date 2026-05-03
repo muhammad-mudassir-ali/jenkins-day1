@@ -48,3 +48,12 @@ git push -u origin main
 
 ### Step 3 — Watch the Pipeline Run
 Jenkins will automatically run all 5 stages and show you green/red status for each.
+
+
+✅ Step 1 — Basic pipeline (you are here)
+⬜ Step 2 — Webhooks (auto trigger)
+⬜ Step 3 — Jenkins on a cloud server (AWS/Azure)
+⬜ Step 4 — Docker + Jenkins
+⬜ Step 5 — Deploy to Kubernetes
+⬜ Step 6 — Multi-branch pipelines
+⬜ Step 7 — Jenkins shared libraries
