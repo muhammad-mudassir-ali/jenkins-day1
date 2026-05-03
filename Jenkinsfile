@@ -57,12 +57,11 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying AutoElite Motors website...'
+                echo 'Site is deployed via GitHub Pages.'
+                echo 'Live URL: https://muhammad-mudassir-ali.github.io/jenkins-day1/'
                 bat '''
-                    IF NOT EXIST "C:\\autoelite-deploy" mkdir "C:\\autoelite-deploy"
-                    copy index.html "C:\\autoelite-deploy\\index.html"
-                    copy style.css  "C:\\autoelite-deploy\\style.css"
-                    echo Files deployed successfully!
-                    dir "C:\\autoelite-deploy"
+                    echo ✅ Deployment complete!
+                    echo 🌐 Visit: https://muhammad-mudassir-ali.github.io/jenkins-day1/
                 '''
             }
         }
